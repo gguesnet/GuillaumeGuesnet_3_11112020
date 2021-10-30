@@ -1,0 +1,30 @@
+.card-restaurant {
+  background-color: white;
+  display: block;
+  position: relative;
+  margin: 1rem 0;
+  border: 1px solid $gray;
+  border-radius: 15px;
+}
+
+.card-thumb {
+  position: relative;
+}
+
+.card-thumb > img {
+  object-fit: cover;
+  width: 100%;
+  height: 175px;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-footer {
+  padding: 1rem;
+}
+
+.card-description {
+  color: black;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0;
+}
