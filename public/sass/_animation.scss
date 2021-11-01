@@ -15,11 +15,15 @@
 }
 
 @keyframes loader {
-  from {
-    visibility: visible;
+  0% {
+    z-index: 1;
+    opacity: 1;
   }
-
-  to {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    z-index: -2;
     visibility: hidden;
   }
 }
